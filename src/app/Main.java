@@ -15,6 +15,7 @@ public class Main {
         Thread threadFruit = new Thread(fruitList);
         threadFruit.start();
 
+
         System.out.printf(fruitList.toString());
 
 
